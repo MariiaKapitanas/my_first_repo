@@ -53,3 +53,37 @@ git checkout master (возвращение к последнему)
 Внутри файла перечислить названия файлов/папок, которые нужно игнорировать, каждый с новой строки 
 
 git ignore
+
+```
+
+### Работа с ветками git
+
+Посмотреть существующие ветки
+
+```sh
+git branch
+```
+Добавить новую ветку 
+```sh
+git branch newbranch
+
+Переключиться на другую ветку ветку
+
+git checkout newbranch
+
+Чтобы вернуться на главную ветку
+
+git branch master/main
+```
+
+Удалить ветку
+
+```sh
+git branch -d name_of_branch
+```
+Посмотреть состояние веток
+```sh
+git log
+git log --oneline 
+git log --oneline --graph
+```
